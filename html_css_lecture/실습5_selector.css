@@ -1,0 +1,7 @@
+a[target="_parent"]:hover, a[target="_self"]:hover{
+    color: aqua
+}
+
+a[target="_parent"]:active, a[target="_self"]:active{
+    color: red
+}

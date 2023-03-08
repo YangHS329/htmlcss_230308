@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 1fr : x1 배율로 배치한다는 것을 의미하는 grid layout의 속성값-->
+        <!-- repeat(x, "y") : "y"값을 x번 반복-->
+        <style>
+            @media (max-width: 400px){
+                .container{
+                    grid-template-rows: repeat(3, 1fr) ;
+                }
+            }
+            @media (min-width: 401px){
+                .container{
+                    grid-template-columns: repeat(3, 1fr) ;
+                }
+            }
+            .container{
+                max-width: 400px;
+                padding: 10px;
+                display: grid;
+                background-color: aqua;
+                /* grid-template-columns: 1fr 1fr 1fr; */
+                /* grid-template-columns: repeat(3,1fr); */
+                grid-template-rows: repeat(3, 1fr);
+                
+            }
+            .item{
+                
+                /* padding: 10px; */
+                background-color: green;
+                /* border: 1px solid black; */
+            }
+        </style>
+
+    </head>
+    <body cz-shortcut-listen="true">
+        <div class="container">
+            <div class="item">아이템1</div>
+            <div class="item">아이템2</div>
+            <div class="item">아이템3</div>
+        </div>
+    </body>
+</html>

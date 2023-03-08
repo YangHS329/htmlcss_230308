@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="'utf-8">
+        <!-- media query : 화면 크기 조건에 따라 container가 다르게 나타남.-->
+        <!-- Max-width : 화면 크기 최대 x까지 적용되는 양식-->
+        <!-- Min-width : 화면 크기 최소 x 이상부터 적용되는 양식-->
+        <style>
+            /* 최대 799px까지는 빨간 배경 */
+            @media (Max-width: 799px){
+                body{
+                    background-color: red;
+                }
+            }
+
+            /* 800px ~ 1024px까지는 주황 배경 */
+            @media ((Min-width: 800px) and (Max-width: 1024px)){
+                body{
+                    background-color: orange;
+                }
+            }
+
+            /* 최소 1025px부터는 노란 배경 */
+            @media (Min-width: 1025px){
+                body{
+                    background-color: yellow;
+                }
+            }
+        
+        </style>
+        
+    </head>
+    <body>
+        <body>실습 과제</body>
+    </body>
+</html>

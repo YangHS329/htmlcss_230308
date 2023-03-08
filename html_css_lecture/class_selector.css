@@ -1,0 +1,8 @@
+.samsung { color: blue; }
+.fast-campus { width: 100px; }
+
+#samsung{color: blue; }
+
+#samsung > button {
+    color: red
+}

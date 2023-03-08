@@ -1,0 +1,38 @@
+<!-- FLOAT, div만을 활용하여 표 만들기-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="'utf-8">
+        <style>
+            div {
+                border: 1px solid black;  
+            }
+            .row-container{
+                width:300px;
+                clear:both;
+            }
+            .stackfromleft{
+                float: left;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="row-container">
+            <div class="stackfromleft">1-1</div>
+            <div class="stackfromleft">1-2</div>
+            <div class="stackfromleft">1-3</div>
+        </div>
+        <div class="row-container">
+            <div class="stackfromleft">2-1</div>
+            <div class="stackfromleft">2-2</div>
+            <div class="stackfromleft">2-3</div>
+        </div>
+        <div class="row-container">
+            <div class="stackfromleft">3-1</div>
+            <div class="stackfromleft">3-2</div>
+            <div class="stackfromleft">3-3</div>
+        </div>
+
+    </body>
+</html>

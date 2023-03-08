@@ -1,0 +1,7 @@
+button:hover{
+    color: aqua
+}
+
+button:active{
+    color: red
+}
